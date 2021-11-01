@@ -11527,6 +11527,19 @@ header.masthead .masthead-heading {
   font-size: 3rem;
   line-height: 3rem;
 }
+
+#portfolioModal1 h2.pch-subheading {
+  font-size:2rem;
+}
+
+@media (min-width: 568px) {
+
+  #portfolioModal1 h2.pch-subheading {
+    font-size:3rem;
+  }
+
+}
+
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
@@ -11914,7 +11927,15 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .pull-right {
-  justify-content: right;
+  justify-content: left;
+}
+
+@media (min-width: 768px) {
+
+  .pull-right {
+    justify-content: right;
+  }
+
 }
 
 .pch-footer .navbar-brand {
